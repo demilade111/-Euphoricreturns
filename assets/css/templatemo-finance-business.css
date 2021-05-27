@@ -26,6 +26,7 @@ ul {
 
 h1,h2,h3,h4,h5,h6 {
 	margin: 0px;
+	
 }
 
 a.filled-button {
@@ -69,7 +70,7 @@ a.border-button:hover {
 }
 
 .section-heading h2 {
-	font-size: 36px;
+	font-size:26px;
 	font-weight: 600;
 	color: #1e1e1e;
 }
@@ -290,15 +291,18 @@ header .navbar {
 }
 .navbar .navbar-nav .nav-item {
 	margin: 0px 15px;
+	width:1005
+	
 }
 .navbar .navbar-nav a.nav-link {
 	text-transform: capitalize;
-	font-size: 15px;
+	font-size: 12px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
 	color: #fff;
 	transition: all 0.5s;
 	margin-top: 5px;
+	
 }
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .active>.nav-link,
@@ -751,7 +755,8 @@ ul.slick-dots {
 }
 
 .callback-form {
-	margin-top: 140px;
+	margin-top: 40px;
+	margin-bottom:40px;
 }
 
 .callback-form .contact-form {
@@ -897,6 +902,8 @@ footer h4 {
 	letter-spacing: 0.25px;
 	margin-bottom: 35px;
 }
+
+
 footer p {
 	color: #fff;
 }
@@ -1055,7 +1062,7 @@ footer .contact-form button.filled-button:hover {
 	background-size: cover;
 	padding: 230px 0px 150px 0px;
 	color: #fff;
-}
+} 
 
 .page-heading h1 {
 	text-transform: capitalize;
@@ -1333,4 +1340,3 @@ footer .contact-form button.filled-button:hover {
 		border-bottom: none!important;
 	}
 }
-
